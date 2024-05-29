@@ -1,6 +1,6 @@
 -- Nvim Bindings
 vim.keymap.set("n", "<Leader>w", ":update<Return>", {})
-vim.keymap.set("n", "<Leader>q", ":quit<Return>",{})
+vim.keymap.set("n", "<Leader>q", ":quit<Return>", {})
 vim.keymap.set("n", "<Leader>Q", ":qa<Return>", {})
 
 -- Split Window
@@ -23,5 +23,3 @@ vim.keymap.set("n", "<leader>k", vim.lsp.buf.hover, {})
 vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
 vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
-
--- 

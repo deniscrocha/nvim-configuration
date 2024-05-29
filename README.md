@@ -19,6 +19,7 @@ This is my personal nvim configuration, if you want to use just clone this in yo
 - *mini-hipatterns*: show's the color of the hex in terminal.
 - *none-ls*: inject's LSP diagnostics, code actions and more.
 - *neo-tree*: files navigation.
+- *telescope*: fuzzy finding.
 - *tree-sitter*: highlight's code.
 - *catppuccin*: theme.
 - *neofusion*: theme.
@@ -44,3 +45,5 @@ This is my personal nvim configuration, if you want to use just clone this in yo
 - *\<leader\>gd* | buf definition | lsp-binding
 - *\<leader\>gr* | buf references | lsp-binding
 - *\<leader\>ca* | buf code action | lsp-binding
+- *\<leader\>ff* | fuzzy find | Telescope 
+- *\<leader\>fg* | live grep | Telescope 
