@@ -2,8 +2,8 @@
 This is my personal nvim configuration, if you want to use just clone this in your ~/.config/nvim, and open nvim.
 
 ## Navigation
-- [Plugins](README#Plugins)
-- [Hotkeys](README#Hotkeys)
+- [Plugins](#Plugins)
+- [Hotkeys](#Hotkeys)
 
 ### Plugins
 
