@@ -26,21 +26,21 @@ This is my personal nvim configuration, if you want to use just clone this in yo
 
 ### Hotkeys
 
-- *<leader>gp* | preview hunk | git-signs
-- *<leader>gt* | toggle blame | git-signs
-- *<leader>gf* | auto format syntax | none-ls
-- *<leader>w* |save_file |Nvim binds
-- *<leader>q* |close_file |Nvim binds
-- *<leader>Q* |close_allbuffers |Nvim binds
+- *\<leader\>gp* | preview hunk | git-signs
+- *\<leader\>gt* | toggle blame | git-signs
+- *\<leader\>gf* | auto format syntax | none-ls
+- *\<leader\>w* |save_file |Nvim binds
+- *\<leader\>q* |close_file |Nvim binds
+- *\<leader\>Q* |close_allbuffers |Nvim binds
 - *ss* | split_window | Nvim binds
 - *sv* | split_windows_vertical | Nvim binds
 - *sh* | move window left| Nvim binds
 - *sj* | move window down| Nvim binds
 - *sk* | move window up| Nvim binds
 - *sl* | move window right| Nvim binds
-- *<C-m>* | Neotree toggle | Neotree
-- *<C-n>* | Neotree filesystem | Neotree
-- *<leader>k* | buf hover | lsp-binding
-- *<leader>gd* | buf definition | lsp-binding
-- *<leader>gr* | buf references | lsp-binding
-- *<leader>ca* | buf code action | lsp-binding
+- *\<C-m\>* | Neotree toggle | Neotree
+- *\<C-n\>* | Neotree filesystem | Neotree
+- *\<leader\>k* | buf hover | lsp-binding
+- *\<leader\>gd* | buf definition | lsp-binding
+- *\<leader\>gr* | buf references | lsp-binding
+- *\<leader\>ca* | buf code action | lsp-binding
