@@ -6,7 +6,12 @@ vim.g.mapleader = " "
 
 
 -- vim.wo.number = true
+
+-- Line number
 vim.opt.number = true
+-- Relative lines
+vim.opt.relativenumber = true
+
 
 vim.scriptencoding = "utf-8"
 vim.opt.encoding = "utf-8"
