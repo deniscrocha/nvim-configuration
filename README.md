@@ -50,5 +50,4 @@ This is my personal nvim configuration, if you want to use just clone this in yo
 - *\<leader\>ca* | buf code action | lsp-binding
 - *\<leader\>ff* | fuzzy find | Telescope 
 - *\<leader\>fg* | live grep | Telescope 
-- *\<leader\>fc* | open commander | Commander
-- *\<leader\>f* | open commander | Commander
+- *\<leader\>p* | open commander | Commander

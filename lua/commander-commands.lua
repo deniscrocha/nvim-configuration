@@ -15,11 +15,11 @@ cmd.add({
   },
   {
     desc = "Go to your notes",
-    cmd = "<CMD>Neorg workspaces notes<CR>",
+    cmd = "<CMD>Neorg workspace notes<CR>",
   },
   {
     desc = "Go to the notes of CursoCodifica",
-    cmd = "<CMD>Neorg workspaces cursocodifica<CR>",
+    cmd = "<CMD>Neorg workspace cursocodifica<CR>",
   },
 })
 
