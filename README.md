@@ -24,6 +24,9 @@ This is my personal nvim configuration, if you want to use just clone this in yo
 - *catppuccin*: theme.
 - *neofusion*: theme.
 - *sonokai*: theme.
+- *commander*: makes a palet of commands.
+- *neorg*: Notes for nvim.
+- *Vim-Be-Good*: allows you play games inside neovim, to practice vim motions.
 
 ### Hotkeys
 
@@ -47,3 +50,5 @@ This is my personal nvim configuration, if you want to use just clone this in yo
 - *\<leader\>ca* | buf code action | lsp-binding
 - *\<leader\>ff* | fuzzy find | Telescope 
 - *\<leader\>fg* | live grep | Telescope 
+- *\<leader\>fc* | open commander | Commander
+- *\<leader\>f* | open commander | Commander
