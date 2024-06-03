@@ -1,7 +1,7 @@
 -- Nvim Bindings
 vim.keymap.set("n", "<Leader>w", ":update<Return>", {})
 vim.keymap.set("n", "<Leader>q", ":quit<Return>", {})
-vim.keymap.set("n", "<Leader>Q", ":qa<Return>", {})
+vim.keymap.set("n", "<Leader>Q", ":q!<Return>", {})
 
 -- Split Window
 vim.keymap.set("n", "ss", ":split<Return>", {})

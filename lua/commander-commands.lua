@@ -13,6 +13,14 @@ cmd.add({
     desc = "Find hidden files",
     cmd = "<CMD>Telescope find_files hidden=true<CR>",
   },
+  {
+    desc = "Go to your notes",
+    cmd = "<CMD>Neorg workspaces notes<CR>",
+  },
+  {
+    desc = "Go to the notes of CursoCodifica",
+    cmd = "<CMD>Neorg workspaces cursocodifica<CR>",
+  },
 })
 
 -- desc = the description that shows inside commander (STRING)
