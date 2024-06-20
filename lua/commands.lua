@@ -41,7 +41,7 @@ cmd.add({
 		keys = { "n", "<Leader>sv" },
 	},
 	{
-		desc = "Move to buffer of the right",
+		desc = "Move to the buffer of the right",
 		cmd = "<C-w>l",
 		keys = { "n", "<Leader>sl" },
 	},
@@ -56,8 +56,8 @@ cmd.add({
 		keys = { "n", "<Leader>sj" },
 	},
 	{
-		desc = "Move to buffer of the left",
-		cmd = "<C-w>l",
+		desc = "Move to the buffer of the left",
+		cmd = "<C-w>h",
 		keys = { "n", "<Leader>sh" },
 	},
 	{
