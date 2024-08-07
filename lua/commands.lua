@@ -17,6 +17,11 @@ cmd.add({
 		keys = { "n", "<Leader>ff" },
 	},
 	{
+		desc = "Live Grep",
+		cmd = "<CMD>Telescope live_grep<CR>",
+		keys = { "n", "<Leader>fg" },
+	},
+	{
 		desc = "Find hidden files",
 		cmd = "<CMD>Telescope find_files hidden=true<CR>",
 	},
@@ -63,27 +68,22 @@ cmd.add({
 	{
 		desc = "Save Buffer",
 		cmd = "<CMD>:update<CR>",
-		keys = { "n", "<Leader>w" },
 	},
 	{
 		desc = "Exit buffer",
 		cmd = "<CMD>:quit<CR>",
-		keys = { "n", "<Leader>q" },
 	},
 	{
 		desc = "Force quit",
 		cmd = "<CMD>q!<CR>",
-		keys = { "n", "<Leader>Q" },
 	},
 	{
 		desc = "Preview hunk",
 		cmd = "<CMD>Gitsigns preview_hunk<CR>",
-		keys = { "n", "<Leader>gh" },
 	},
 	{
 		desc = "Toggle Current Line Blame",
 		cmd = "<CMD>Gitsigns toggle_current_line_blame<CR>",
-		keys = { "n", "<Leader>gt" },
 	},
 	{
 		desc = "Format file",
@@ -98,6 +98,25 @@ cmd.add({
 	{
 		desc = "Open OIL Normal",
 		cmd = "<CMD>Oil<CR>",
-		keys = { "n", "<Leader>m" },
+	},
+	{
+		desc = "Obsidian Follow Link",
+		cmd = "<CMD>ObsidianFollowLink<CR>",
+		keys = { "n", "<Leader>of" },
+	},
+	{
+		desc = "Obsidian Toggle Checkbox",
+		cmd = "<CMD>ObsidianToggleCheckbox<CR>",
+		keys = { "n", "<Leader>oc" },
+	},
+	{
+		desc = "Open Obsidian Home",
+		cmd = "<CMD>ObsidianQuickSwitch home<CR>",
+		keys = { "n", "<Leader>oh" },
+	},
+	{
+		desc = "Back to Last Buffer",
+		cmd = "<CMD>bp<CR>",
+		keys = { "n", "<Leader>bp" },
 	},
 })

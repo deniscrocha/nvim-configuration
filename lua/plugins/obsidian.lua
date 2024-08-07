@@ -22,14 +22,6 @@ return {
         name = "personal",
         path = "~/Vaults/personal",
       },
-      {
-        name = "work",
-        path = "~/Vaults/work",
-      },
-      {
-        name = "curso",
-        path = "~/Vaults/study",
-      },
     },
     -- see below for full list of options 👇
   },
